@@ -25,6 +25,14 @@ app.use("/api/v1",router.post("/inst",async(req,res)=>{
         data,
       });
 }))
+app.use("/",async(req,res)=>{
+
+
+
+    res.status(201).json({
+        success: true,
+      });
+})
 
 
 
